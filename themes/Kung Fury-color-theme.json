@@ -1,0 +1,14 @@
+{
+	"tokenColors": "./Kung Fury.tmTheme",
+	"colors": {
+		"editor.background": "#181a1b",
+		"editorCursor.foreground": "#CC00CC",
+		"editor.foreground": "#ccc",
+		"editorWhitespace.foreground": "#525252",
+		"editor.lineHighlightBackground": "#121212",
+		"editor.selectionBackground": "rgba(0, 0, 0, 0.5)",
+		"button.background": "black",
+		"tab.activeBorder": "#CC00CC"
+	},
+	"name": "Kung Fury"
+}

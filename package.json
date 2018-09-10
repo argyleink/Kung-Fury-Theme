@@ -1,0 +1,22 @@
+{
+    "name": "kung-fury",
+    "displayName": "Kung Fury",
+    "description": "80s Dark Retro",
+    "version": "0.0.1",
+    "publisher": "ArgyleInk",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kung Fury",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kung Fury-color-theme.json"
+            }
+        ]
+    }
+}
