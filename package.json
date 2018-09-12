@@ -4,6 +4,10 @@
     "description": "80s Dark Retro",
     "version": "0.0.1",
     "publisher": "ArgyleInk",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/argyleink/Kung-Fury-Theme"
+    },
     "engines": {
         "vscode": "^1.27.0"
     },
