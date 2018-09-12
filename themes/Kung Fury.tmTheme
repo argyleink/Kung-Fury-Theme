@@ -329,7 +329,8 @@
         source.ts punctuation.definition.typeparameters.begin.ts,
         source.ts punctuation.definition.typeparameters.end.ts,
         source.ts meta.type.annotation.ts support.type.primitive.ts,
-        source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts
+        source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts,
+        source.js storage.type.accessor.js
       </string>
       <key>settings</key>
       <dict>
