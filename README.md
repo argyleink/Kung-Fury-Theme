@@ -1,4 +1,4 @@
-![Kung Fury](gifs/kung-fury.gif)
+![Kung Fury](https://github.com/argyleink/Kung-Fury-Theme/raw/master/gifs/kung-fury.gif)
 
 
 
@@ -16,43 +16,43 @@
 
 
 
-![Powerglove](gifs/powerglove.gif)
+![Powerglove](https://github.com/argyleink/Kung-Fury-Theme/raw/master/gifs/powerglove.gif)
 > Hackerman says "by far the best retro code theme"
 
 
 
 
 ## Screenshots
-![80s Car](gifs/retro-car.gif)
+![80s Car](https://github.com/argyleink/Kung-Fury-Theme/raw/master/gifs/retro-car.gif)
 
 
 
 
 
 ##### JavaScript
-![custom element](screenshots/js-custom_element.png)
-![es6](screenshots/js-es6.png)
-![configuration](screenshots/js-config.png)
+![custom element](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/js-custom_element.png)
+![es6](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/js-es6.png)
+![configuration](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/js-config.png)
 
 ##### CSS
-![css](screenshots/css.png)
-![scss](screenshots/scss.png)
+![css](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/css.png)
+![scss](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/scss.png)
 
 
 
 ##### HTML
-![html](screenshots/html.png)
-![angular](screenshots/angular-template.png)
+![html](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/html.png)
+![angular](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/angular-template.png)
 
 
 
 ##### JSON/YAML
-![json](screenshots/json.png)
-![yaml](screenshots/yaml.png)
+![json](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/json.png)
+![yaml](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/yaml.png)
 
 
 
 ##### Typescript
-![typescript](screenshots/typescript-component.png)
-![service](screenshots/typescript-service.png)
-![interface](screenshots/typescript-interface.png)
+![typescript](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/typescript-component.png)
+![service](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/typescript-service.png)
+![interface](https://github.com/argyleink/Kung-Fury-Theme/raw/master/screenshots/typescript-interface.png)
