@@ -72,6 +72,7 @@
         source.ts meta.definition.method.ts entity.name.function.ts,
         source.ts meta.object-literal.key.ts,
         source.ts support.function.dom.ts,
+        source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.grid.css,
         source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.constant.ts
       </string>
       <key>settings</key>
@@ -148,7 +149,9 @@
         source.ts meta.array.literal.ts meta.brace.square.ts,
         source.ts meta.var.expr.ts meta.brace.round.ts,
         source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.begin.ts,
-        source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.end.ts
+        source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.end.ts,
+        source.css meta.at-rule.media.css punctuation.definition.group.begin.css,
+        source.css meta.at-rule.media.css punctuation.definition.group.end.css
       </string>
       <key>settings</key>
       <dict>
@@ -332,6 +335,7 @@
         source.js keyword.control.js,
         source.js entity.name.type.instance.js,
         support.type.property-name.css,
+        source.css meta.selector.css entity.name.tag.css,
         punctuation.definition.heading.markdown,
         source.yaml punctuation.definition.block.sequence.item.yaml,
         beginning.punctuation.definition.list.markdown,
@@ -343,7 +347,8 @@
         source.ts punctuation.definition.typeparameters.end.ts,
         source.ts meta.type.annotation.ts support.type.primitive.ts,
         source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts,
-        source.js storage.type.accessor.js
+        source.js storage.type.accessor.js,
+        source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css
       </string>
       <key>settings</key>
       <dict>
