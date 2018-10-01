@@ -59,6 +59,7 @@
         source.css meta.function-call.css support.function.attr.css,
         source.css meta.function-call.css support.function.filter.css,
         source.css meta.function-call.css support.function.timing.css,
+        source.css meta.function-call.css support.function.shape.css,
         source.postcss meta.property-list.css.postcss support.function.name.postcss,
         source.js meta.object-literal.js meta.object-literal.key.js,
         support.type.property-name.json,
