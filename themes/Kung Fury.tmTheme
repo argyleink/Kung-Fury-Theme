@@ -145,6 +145,7 @@
         source.js meta.template.expression.js punctuation.definition.template-expression.begin.js,
         source.js meta.template.expression.js punctuation.definition.template-expression.end.js,
         source.css meta.selector.css meta.attribute-selector.css punctuation.definition.entity.css,
+        source.css meta.rule.css meta.declaration-list.css punctuation.section.declaration-list.begin.css,
         source.ts meta.decorator.ts meta.brace.round.ts,
         source.ts punctuation.definition.block.ts,
         source.ts meta.method.declaration.ts,
