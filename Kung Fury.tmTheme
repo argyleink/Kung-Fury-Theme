@@ -60,7 +60,6 @@
         source.css meta.function-call.css support.function.filter.css,
         source.css meta.function-call.css support.function.timing.css,
         source.css meta.function-call.css support.function.shape.css,
-        source.postcss meta.property-list.css.postcss support.function.name.postcss,
         source.js meta.object-literal.js meta.object-literal.key.js,
         source.css support.constant,
         source.css meta.function-call.css support.function.transform.css,
@@ -73,8 +72,7 @@
         source.ts meta.definition.method.ts entity.name.function.ts,
         source.ts meta.object-literal.key.ts,
         source.ts support.function.dom.ts,
-        source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.constant.ts,
-        source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.grid.css
+        source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.constant.ts
       </string>
       <key>settings</key>
       <dict>
@@ -101,6 +99,7 @@
         text.html.mt meta.tag.block.any.html punctuation.definition.tag.html,
         text.html.mt meta.tag.inline.any.html punctuation.definition.tag.html,
         text.html.mt meta.tag.any.html punctuation.definition.tag.html,
+        source.js meta.export.js meta.block.js meta.for.js meta.group.js punctuation.section.group.js,
         punctuation.separator,
         punctuation.section.braces.begin,
         punctuation.section.braces.end,
@@ -138,16 +137,23 @@
         source.js meta.template.expression.js punctuation.definition.template-expression.begin.js,
         source.js meta.template.expression.js punctuation.definition.template-expression.end.js,
         source.css meta.selector.css meta.attribute-selector.css punctuation.definition.entity.css,
-        source.css meta.rule.css meta.declaration-list.css punctuation.section.declaration-list.begin.css,
+        source.css meta.rule.css punctuation.section.declaration-list.begin.css,
+        source.css meta.rule.css punctuation.section.declaration-list.end.css,
+        source.css meta.rule.css punctuation.section.at-media.begin.css,
+        source.css meta.rule.css punctuation.section.at-media.end.css,
+        source.css meta.rule.css punctuation.section.function.begin.css,
+        source.css meta.rule.css punctuation.section.function.end.css,
+        source.css meta.rule.css punctuation.section.media-feature.begin.css,
+        source.css meta.rule.css punctuation.section.media-feature.end.css,
+        source.css meta.rule.css punctuation.section.attribute-selector.begin.css,
+        source.css meta.rule.css punctuation.section.attribute-selector.end.css,
         source.ts meta.decorator.ts meta.brace.round.ts,
         source.ts punctuation.definition.block.ts,
         source.ts meta.method.declaration.ts,
         source.ts meta.array.literal.ts meta.brace.square.ts,
         source.ts meta.var.expr.ts meta.brace.round.ts,
         source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.begin.ts,
-        source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.end.ts,
-        source.css meta.at-rule.media.css punctuation.definition.group.begin.css,
-        source.css meta.at-rule.media.css punctuation.definition.group.end.css
+        source.ts meta.arrow.ts meta.parameters.ts punctuation.definition.parameters.end.ts
       </string>
       <key>settings</key>
       <dict>
@@ -222,6 +228,7 @@
         entity.name,
         source.css meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css,
         source.postcss meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css,
+        source.css meta.rule.css support.type.property-name.css,
         source.js meta.delimiter.method.period.js,
         source.js punctuation.separator,
         entity.name.tag.inline.any.html,
@@ -231,6 +238,7 @@
         punctuation.definition.entity.end.bracket.square.css,
         punctuation.separator.dictionary.pair.json,
         source.postcss keyword.control.at-rule.css.postcss,
+        source.css meta.rule.css punctuation.definition.entity.pseudo-class.css,
         source.js meta.export.js meta.object-literal.js punctuation.separator.comma.js,
         source.js meta.export.js meta.block.js meta.function-call.js meta.group.js,
         source.js string.template.js punctuation.definition.string.template.begin.js,
@@ -266,10 +274,12 @@
         source.css support.type.vendor-prefix.css,
         source.css keyword.other.unit.css,
         source.css meta.property-list.css meta.property-value.css,
-        source.css punctuation.separator.combinator.css,
+        source.css meta.property-value.css meta.function-call.css meta.group.css support.keyword.repetitions.css,
         source.css constant.other.color.rgb-value.css punctuation.definition.constant.css,
         source.postcss meta.property-list.css meta.property-value.css,
         source.css entity.other.pseudo-class.css punctuation.definition.entity.css,
+        source.css meta.selector.css meta.function.pseudo-class.not-matches-has.css,
+        source.css meta.rule.css support.type.property-name.custom.css,
         punctuation.separator.dictionary.key-value.json,
         source.yaml punctuation.separator,
         source.js keyword.operator.logical.js,
@@ -283,6 +293,7 @@
         source.js support.function.promise.js,
         source.css meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css,
         source.css meta.function-call.css punctuation.separator.css,
+        source.css meta.rule.css meta.selector.css entity.name.tag.nesting-selector.css,
         source.ts meta.decorator.ts punctuation.decorator.ts,
         source.ts meta.import.ts string.quoted.single.ts,
         source.ts meta.function-call.ts punctuation.accessor.ts,
@@ -317,15 +328,16 @@
         source.css punctuation.definition.keyword.css,
         source.css entity.other.pseudo-class.css,
         source.css punctuation.definition.entity.css,
+        source.css meta.selector.css keyword.operator.combinator.css,
         source.postcss meta.property-list.css meta.property-value.css keyword.other.unit.css,
         source.postcss punctuation.definition.keyword.css,
         source.postcss entity.other.pseudo-class.css,
         source.postcss punctuation.definition.entity.css,
         source.css meta.selector.css entity.name.tag.custom.css,
+        source.css meta.function-call.css support.function.grid.css,
         source.js keyword.control.js,
         source.js entity.name.type.instance.js,
         support.type.property-name.css,
-        source.css meta.selector.css entity.name.tag.css,
         punctuation.definition.heading.markdown,
         source.yaml punctuation.definition.block.sequence.item.yaml,
         beginning.punctuation.definition.list.markdown,
@@ -337,8 +349,7 @@
         source.ts punctuation.definition.typeparameters.end.ts,
         source.ts meta.type.annotation.ts support.type.primitive.ts,
         source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts,
-        source.js storage.type.accessor.js,
-        source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css
+        source.js storage.type.accessor.js
       </string>
       <key>settings</key>
       <dict>
