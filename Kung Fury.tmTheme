@@ -74,7 +74,8 @@
         source.ts meta.definition.method.ts entity.name.function.ts,
         source.ts meta.object-literal.key.ts,
         source.ts support.function.dom.ts,
-        source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.constant.ts
+        source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.constant.ts,
+        text.html meta.tag.block.any.html meta.attribute-with-value.style.html source.css meta.declaration-list.css
       </string>
       <key>settings</key>
       <dict>
@@ -353,6 +354,7 @@
         source.css meta.function-call.css support.function.grid.css,
         source.css meta.rule.css support.constant.property-value.css,
         source.css meta.rule.css support.constant.color.w3c-color-name.css,
+        text.html meta.tag.block.any.html meta.attribute-with-value.style.html source.css,
         source.js keyword.control.js,
         source.js entity.name.type.instance.js,
         support.type.property-name.css,
